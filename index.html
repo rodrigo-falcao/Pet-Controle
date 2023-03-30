@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo-pata" src="assets/image/image.svg" alt="Pata de cachorro">
+        <h1 class="title">AGENDAMENTO DE BANHO E TOSA</h1>
+    </header>
+    
+    <section id="sec-form">
+        <div>
+            <form onsubmit="addPet()">
+                <label for="petName">Nome do Pet *</label>
+                <input type="text" value="" placeholder="Nuna" required id="fname" name="petName">
+
+                <label for="petBreed">Raça *</label>
+                <input type="text" value="" placeholder="Poodle" required id="fbreed" name="petBreed">
+
+                <label for="petOwner">Dono do Pet *</label>
+                <input type="text" value="" placeholder="Beatriz Silva" required id="fowner" name="petOwner">
+
+                <label for="petPhone">Telefone *</label>
+                <input type="text" value="" placeholder="(00) 00000 - 0000" required id="fphone" name="petPhone" style="margin-bottom: 2rem;">
+            
+                <button type="submit">Agendar Pet</button>
+            </form>
+        </div>
+
+        <div>
+            <table id="dataTable">
+                <tr>
+                    <th>ID</th>
+                    <th> Nome do Pet</th>
+                    <th> Raça </th>
+                    <th> Dono do Pet </th>
+                    <th> Telefone </th>
+                    <th> Remover </th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

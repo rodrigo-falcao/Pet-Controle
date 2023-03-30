@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    background-color: #B2C7DF;
+}
+
+header {
+    background-color: rgba(27, 26, 94, 0.72);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-pata {
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-right: 0;
+}
+
+.title {
+    padding: 4rem;
+    padding-right: 5rem;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
+}
+
+/* Parte do formulário do site */
+#sec-form {
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    width: 467px;
+    height: 45px;
+    font-family: 'Alegreya Sans SC';
+    border: none;
+    margin-left: 2rem;
+}
+
+button {
+    background-color: #1B1A5E;
+    width: 224px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.57);
+    text-align: center;
+}
+
+th {
+    background: rgba(64, 123, 255, 0.55);;
+    border: 1px solid gray;
+    min-width: 110px;
+    font-family: 'Alegreya Sans SC';
+}
+
+table {
+    padding-top: 1rem;
+}
